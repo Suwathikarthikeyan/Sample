@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	
+<parameter name="x" value="Anandha1997"/>
+<parameter name="y" value="Serv@456k"/>
+
+<parameter name="username1" value="Anandha197"/>
+<parameter name="password1" value="Serv@456kl"/>
+
+<parameter name="username2" value="Anandha19971"/>
+<parameter name="password2" value="Serv@456k"/>
+
+<parameter name="username3" value="Anandha1997"/>
+<parameter name="password3" value="Serv@456kl"/>
+
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="task3.adactin.UsingBeforeTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
